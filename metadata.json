@@ -1,0 +1,6 @@
+{
+  "name": "منصة نجوم التفكير",
+  "description": "منصة تعليمية تفاعلية لطالبات الابتدائية السابعة والثلاثون لتوثيق الأثر ولوحة الشرف وإنجازات الطالبات وأولياء الأمور.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

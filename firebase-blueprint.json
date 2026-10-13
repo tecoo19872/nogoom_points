@@ -1,0 +1,33 @@
+{
+  "entities": {
+    "PlatformData": {
+      "title": "PlatformData",
+      "description": "Shared platform data including students, honor stars, impact notes, and parent contributions.",
+      "type": "object",
+      "properties": {
+        "students": {
+          "type": "array",
+          "description": "List of students and their subject star achievements."
+        },
+        "impact": {
+          "type": "array",
+          "description": "List of teaching strategy impact documentation."
+        },
+        "parents": {
+          "type": "array",
+          "description": "List of cooperative parent contributions."
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "Server timestamp of the last update."
+        }
+      }
+    }
+  },
+  "firestore": {
+    "/platformData/{documentId}": {
+      "schema": "PlatformData",
+      "description": "Stores the central shared state for nojoum-altafkeer platform."
+    }
+  }
+}
