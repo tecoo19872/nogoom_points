@@ -207,7 +207,7 @@ export default function App() {
 
   const handleLogin = () => {
     const val = password.trim();
-    const newRole = val === '1234' ? 't' : val === '0000' ? 'p' : null;
+    const newRole = val === '1517' ? 't' : val === '1938' ? 'p' : null;
     if (!newRole) {
       showToast('كلمة المرور غير صحيحة');
       return;
